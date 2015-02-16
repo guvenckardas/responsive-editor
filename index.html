@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>gKardas Responsive Editor</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+
+</head>
+<body>
+
+<div class="generator">
+
+    <div class="container" id="editor" data-id="editor">
+
+        <div class="header-area col-xs-12 col-md-12 h-m-t">
+            Add to grid panel in <span id="target-area">container </span>.
+        </div>
+
+        <div class="entiry-panel col-xs-6 col-md-6 h-m-t">
+
+            <div class="inside clearfix">
+
+            <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-6">Large Desktop(>=1200)</div>
+                <div
+                        class="col-xs-12 col-sm-12 col-md-6"><input type="number" class="w-grid-val" name="quantity" min="1"
+                                                       max="12"
+                                                           value="1"></div>
+            </div >
+
+                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-6">Desktop(>=980 && < 1200)</div>
+                <div
+                        class="col-xs-12 col-sm-12 col-md-6"><input type="number"  class="d-grid-val" name="quantity" min="1"
+                                                       max="12" value="1"></div>
+
+
+            </div>
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="col-xs-12 col-sm-12 col-md-6">Tablet(<980 && >= 768)</div>
+                    <div
+                            class="col-xs-12 col-sm-12 col-md-6"><input type="number"  class="t-grid-val" name="quantity" min="1" max="12" value="1"></div>
+
+
+                </div>
+
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="col-xs-12 col-sm-12 col-md-6">Mobile (<768) -> Max w=480 Min w=320</div>
+                    <div
+                            class="col-xs-12 col-sm-12 col-md-6"><input type="number"  class="m-grid-val" name="quantity" min="1" max="12" value="1"></div>
+
+
+                </div>
+
+                <div class="col-xs-12 col-md-12">
+                    <div class="col-xs-12 col-sm-12 col-md-6">Height</div>
+                    <div
+                            class="col-xs-12 col-sm-12 col-md-6"><input type="number"  class="height-grid-val" name="quantity" min="20" max="500" value="20">px</div>
+
+
+                </div>
+
+
+            <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-6">Padding</div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <form>
+                    <input type="radio" name="padding" value="default" checked="true">Default<br>
+                    <input type="radio" name="padding" value="none">None
+                </form>
+                </div>
+            </div >
+
+            </div>
+    </div>
+
+<div class="col-xs-6 col-md-6 info-panel h-m-t">
+    <div class="inside clearfix">
+<div id="container-width"></div>
+<div id="container-usage-width"></div>
+<div id="grid-width"></div>
+<div id="window-width"></div>
+        </div>
+</div>
+
+
+        <div class="button-area col-xs-12 col-md-12 h-m-t">
+             <div id="add-button">Add Grid+</div>
+             <div id="clear-button">Clear Container</div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="button-open-close h-m-t" data-id="editor">close</div>
+    </div>
+
+</div>
+
+<div class="fixed-layout">
+<div class="container">
+<div class="container-usage-area">
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">1</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">2</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">3</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">4</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">5</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">6</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">7</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">8</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">9</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">10</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">11</div></div>
+    <div class=" col-md-1 col-xs-1 col-sm-1"><div class="inside">12</div></div>
+</div>
+</div>
+
+</div>
+
+<div class="fly-layout h-m-t">
+
+    <div class="selectable-content container clearfix" id="container">
+
+        <div class="inside"></div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/generator.js"></script>
+
+
+</body>
+</html>

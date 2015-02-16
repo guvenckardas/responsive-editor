@@ -1,0 +1,141 @@
+/*GENERATOR*/
+.generator{
+    border:1px solid #ccc;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 0 10px;
+    box-shadow: 0px 3px 5px #888888;
+    width: 100%;
+    overflow: hidden;
+}
+.generator #target-area{
+    font-weight:bold;
+}
+
+.button-area div{
+    color: white;
+    width: 120px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background: rgb(28, 184, 65); /* this is a green */
+    padding: 5px;
+    text-align: center;
+}
+
+
+.button-open-close{
+    text-align: center;
+    font-size: 20px;
+}
+.button-open-close:hover{
+    cursor:pointer;
+}
+
+.button-open-close.rotate{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+#clear-button{
+    color: white;
+    width: 120px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(223, 117, 20);
+    padding: 5px;
+}
+input:hover, .button-area div:hover{
+    cursor:pointer;
+}
+
+.header-area{
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+}
+.info-panel .inside, .entiry-panel .inside{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+.info-panel .inside span{
+    float: right;
+}
+.info-panel .inside .col-md-13{
+    border-bottom:1px dotted #ccc;
+}
+.entiry-panel .inside input{
+    color: #000000;
+}
+/*END OF GENERATOR*/
+
+
+
+/*FIXED*/
+.fixed-layout{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+.fixed-layout .container{
+    height: 100%;
+}
+.fixed-layout .container div{
+    height: 100%;
+}
+
+.fixed-layout .container .container-usage-area{
+    background-color: rgb(122,122,122);
+    background-color: rgba(122,122,122,0.1);
+}
+
+.fixed-layout .container div .inside{
+    height: 100%;
+    background-color: rgb(255,51,51);
+    background-color: rgba(255,51,51,0.1);
+    text-align: center;
+}
+/*END OF FIXED*/
+
+
+
+/*FLY*/
+.fly-layout{
+
+}
+
+.fly-layout .container div .inside{
+
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+#container{
+    height: 100%;
+}
+
+.selectable-content:hover{
+    cursor:pointer;
+}
+/*END OF FLY*/
+
+
+/*GENERAL*/
+.h-m-t{
+    margin-top: 5px;
+}
+.hidden{
+    display: none;
+}
+
+/*END OF GENERAL*/
